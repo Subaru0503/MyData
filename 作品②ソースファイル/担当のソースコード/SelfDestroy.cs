@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SelfDestroy : MonoBehaviour
+{
+    [SerializeField] private float deleteTimer;
+
+    // Update is called once per frame
+    void Update()
+    {
+        // 0ïbÇ…Ç»Ç¡ÇΩÇÁçÌèú
+        if(deleteTimer <= 0.0f)
+        {
+            Destroy(gameObject);
+        }
+
+        // éûä‘åoâﬂ
+        deleteTimer -= Time.deltaTime;
+    }
+}
