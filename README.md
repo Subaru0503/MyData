@@ -10,3 +10,4 @@
   ┗readme.txt
 - ギガファイル便にアップロードした作品データURL
 https://115.gigafile.nu/0804-m266a71bd7fca78e9620d702b73fb5e4b
+パスワードなし
